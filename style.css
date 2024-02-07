@@ -7,7 +7,7 @@
 body{
     height: 100%;
     background-image: url(./background.jpg);
-    background-repeat: round space;
+    background-repeat: no-repeat;
 }
 .container{
     background-color: #c18a8a00;
