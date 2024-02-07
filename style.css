@@ -37,7 +37,7 @@ body{
             transform-style: preserve-3d;
 }
 .coin img{
-    width: 450px;
+    width: 400px;
 }
 .heads,.tails{
     display: flex;
