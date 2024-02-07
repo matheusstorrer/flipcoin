@@ -9,13 +9,13 @@ flipBtn.addEventListener("click", () => {
     coin.style.animation = "none";
     if(i){
         setTimeout(function(){
-            coin.style.animation = "spin-heads 3s forwards";
+            coin.style.animation = "spin-heads 1s forwards";
         }, 100);
         heads++;
     }
     else{
         setTimeout(function(){
-            coin.style.animation = "spin-tails 3s forwards";
+            coin.style.animation = "spin-tails 1s forwards";
         }, 100);
         tails++;
     }
@@ -27,6 +27,6 @@ function disableButton(){
     flipBtn.disabled = true;
     setTimeout(function(){
         flipBtn.disabled = false;
-    },3000);
+    },1000);
 };
 
